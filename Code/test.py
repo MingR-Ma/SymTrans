@@ -1,8 +1,8 @@
 import torch
 import argparse
 import numpy as np
-from model220421 import SymTrans as Net
-from model220421 import SpatialTransform
+from model import SymTrans as Net
+from model import SpatialTransform
 from tools import jacobian_determinant
 from losses import dice
 
