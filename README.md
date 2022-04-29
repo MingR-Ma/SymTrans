@@ -4,7 +4,7 @@
 
  **Symmetric Transformer-based Network for Unsupervised Image Registration**
  The proposed SymTrans architecture：
- ![image](Architectures_paper.pdf)
+ ![image](Architectures_paper.png)
  
 Please cite: https://arxiv.org/abs/2204.13575
 
