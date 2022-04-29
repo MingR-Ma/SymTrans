@@ -3,6 +3,9 @@
 ## Paper:
 
  **Symmetric Transformer-based Network for Unsupervised Image Registration**
+ The proposed SymTrans architecture：
+ ![image](architectures_paper.pdf)
+ 
 Please cite: https://arxiv.org/abs/2204.13575
 
 ## Trained model
