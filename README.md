@@ -10,7 +10,7 @@ The proposed SymTrans architecture：
 
  ![image](Architectures_paper.png)
  
-The GPU memory occupied during training is about 3 GB with a batch size of 1 on our server. Vit-V-Net and Transmorph occupy about 6 GB and 7 GB of GPU memory. All the data are size of [96,112,96]. The paramters and FLOPs is following.
+The GPU memory occupied during training is about 3 GB with a batch size of 1 on our server. Vit-V-Net and Transmorph occupy about 6 GB and 7 GB of GPU memory. All the images are size [96,112,96]. The parameters and FLOPs are following：
 
 | Method     |    Trans. L. | Params (M) | FLOPs (G) |
 | ---------- | ------------ | ---------- | --------- |
