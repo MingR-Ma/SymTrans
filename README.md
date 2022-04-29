@@ -3,7 +3,7 @@
 ## Paper:
 
  **Symmetric Transformer-based Network for Unsupervised Image Registration**
-https://arxiv.org/abs/2204.13575
+Please cite: https://arxiv.org/abs/2204.13575
 
 ## Trained model
 
@@ -19,6 +19,6 @@ Excute this comand train the SymTran after allocate the dataset：
 ```
 python train.py
 ```
-Checkpoints and training logs, including validation results and loss values, are recorded in the`./Chekcpoint/` and './Log/' folder. You can use tensorboardx to moniter the training.
+Checkpoints and training logs, including validation results and loss values, are recorded in the`./Chekcpoint/` and './Log/' folder. You can use tensorboardx to moniter the training. Using the parameter `--learning_mode ` to select diffeomorphic or displacement registration (default `--learning_mode displacement`).
 
 
