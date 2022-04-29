@@ -21,4 +21,4 @@ python train.py
 ```
 Checkpoints and training logs, including validation results and loss values, are recorded in the`./Chekcpoint/` and './Log/' folder. You can use tensorboardx to moniter the training. Using the parameter `--learning_mode ` to select diffeomorphic or displacement registration (default `--learning_mode displacement`).
 
-
+All the parameters can be found in the `train.py`. You can modify them if you would like to configure your own training or testing.
