@@ -11,6 +11,13 @@ The proposed SymTrans architecture：
  ![image](Architectures_paper.png)
  
 
+| Method     |    Trans. L. | Params (M) | FLOPs (G)
+| VoxelMorph | -            | 0.29       | 59.82
+| SYMNet     | -            | 1.12       | 44.51
+| Vit-V-Net  | 1/16         |31.50       | 65.77
+| TransMorph | 1/4          |46.69       | 112.75
+| SymTrans   | 1/4          |16.05       | 63.53
+
 
 ## Trained model
 
