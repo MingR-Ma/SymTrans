@@ -270,7 +270,7 @@ if __name__ == '__main__':
     down_ratio = (2, 4, 8, 16)
     vit_depth = 2
     patch_size = (3, 3, 3)
-    sr_ratio = (12, 8, 4)
+    sr_ratio = (24, 16, 12)
 
     # Get the Train set
     # Using our class <dataload.py to load the nd.array data>
