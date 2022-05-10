@@ -76,7 +76,7 @@ def Train(iters, lr, atlas_file, atlas_label, valsets, valsets_label,
 
     model = Net(
         feature_shape=feature_shape, base_channel=base_channel, down_ratio=down_ratio, vit_depth=vit_depth,
-        patch_size=patch_size, n_heads=n_heads, sr_ratio=sr_ratio, diff=learning_mode
+        patch_size=patch_size, n_heads=n_heads, sr_ratio=sr_ratio, learning_mode=learning_mode
     ).cuda()
 
     transform = SpatialTransform([96, 112, 96]).cuda()  # grid sample in my code.
