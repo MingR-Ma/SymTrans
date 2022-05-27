@@ -39,6 +39,8 @@ Excute this comand train the SymTran after allocate the dataset：
 ```
 python train.py
 ```
+Due to the GPU memory limitation, we could not train SymTrans and baseline approaches on the larger shaped images. If you would like to train the images shaped of 160×192×224, please enlarge the sr_ratio in the `train.py` to get better results.
+## Test
 Checkpoints and training logs, including validation results and loss values, are recorded in the`./Chekcpoint/` and './Log/' folder. You can use tensorboardx to moniter the training. Using the parameter `--learning_mode ` to select diffeomorphic or displacement registration (default `--learning_mode displacement`).
 
 All the parameters can be found in the `train.py` and `test.py`. You can modify them if you would like to configure your own training or testing.
